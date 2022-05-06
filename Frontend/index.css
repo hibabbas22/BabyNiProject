@@ -1,0 +1,27 @@
+.title{
+    text-align: center;
+    background-color: rgb(255, 141, 0);
+    color:white;
+    border-radius: 100px;
+    padding: 25px 25px;
+}
+#wrapper {
+    border: 1px solid;
+}
+.h3Css {
+    background-color: rgb(160, 167, 0);
+    border-radius: 100px;
+    padding: 15px 15px;
+    color:white;
+    width: fit-content;
+}
+h4{
+    background-color: rgb(255, 141, 0);
+    border-radius: 100px;
+    padding: 15px 15px;
+    color:white;
+    width: fit-content;
+}
+.box1{
+    margin-left: 30px;
+}

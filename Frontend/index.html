@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>WebApp</title>
+
+  <link href="https://kendo.cdn.telerik.com/2022.1.412/styles/kendo.common.min.css" rel="stylesheet" />
+  <link href="https://kendo.cdn.telerik.com/2022.1.412/styles/kendo.default.min.css" rel="stylesheet" />
+  <link href="index.css" rel="stylesheet" />
+
+  <script src="https://kendo.cdn.telerik.com/2022.1.412/js/jquery.min.js"></script>
+  <script src="https://kendo.cdn.telerik.com/2022.1.412/js/kendo.all.min.js"></script>
+  <script src="index.js"></script>
+
+</head>
+
+<body>
+
+  <h1 class="title">Dashboard</h1>
+  <div class="container">
+    <h3 class="h3Css">Filter By: </h3>
+    <div class="box-col">
+      <div class="box1">
+        <h4>Select Date</h4>
+        <strong><em>From:</em> </strong><input id="startDate" title="datetimepicker" style="width: 210px" />
+        <em><strong>To:</strong> </em> <input id="endDate" title="datetimepicker" style="width: 210px" />
+      </div>
+      <div class="box1">
+        <h4>Select Aggregation type</h4>
+        <input name="aggregate" id="daily" type="radio" autocomplete="off" />
+        <label for="daily"><strong><em>Daily</em></strong></label>
+        <input name="aggregate" id="hourly" type="radio" autocomplete="off" />
+        <label for="hourly"><strong><em>Hourly</em></strong></label>
+      </div>
+    </div>
+    </ul>
+  </div>
+  <div id="chartDaily"></div>
+  <div id="gridDaily"></div>
+
+  <div id="chartHourly"></div>
+  <div id="gridHourly"></div>
+
+</body>
+
+</html>
