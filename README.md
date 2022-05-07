@@ -1,10 +1,11 @@
 # BabyNi
 
 This project is the implementation of an application responsible for parsing, loading, aggregating, and visualizing data. 
-Three APIs were created (Parser, Loader, Aggregator). 
+Three APIs were created (Parser, Loader, Aggregator). For visualization purposes, Kendo UI was used.
+This project was implemented on Visual Studio 2019 for Backend, and Visual Studio Code for Frontend.
 
 
-To create the tables used in the database:
+To create the tables used in this project (DBvisualizer):
 ```sql
 create table radio_link(   
       NetworkSId int,  
