@@ -6,7 +6,7 @@ Three APIs were created (Parser, Loader, Aggregator).
 
 To create the tables used in the database:
 ```sql
-CREATE TABLE radio_link(   
+create table radio_link(   
       NetworkSId int,  
       DatatimeKey DateTime,  
       NeId int,  
